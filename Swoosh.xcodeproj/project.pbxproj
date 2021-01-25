@@ -16,6 +16,7 @@
 		92ACF8E225BE11F300569A0A /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACF8E125BE11F300569A0A /* BorderButton.swift */; };
 		92ACF8E625BE3D1F00569A0A /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACF8E525BE3D1F00569A0A /* LeagueVC.swift */; };
 		92ACF8E825BE3D2E00569A0A /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACF8E725BE3D2E00569A0A /* SkillVC.swift */; };
+		92ACF8EA25BF59F500569A0A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACF8E925BF59F500569A0A /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		92ACF8E125BE11F300569A0A /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		92ACF8E525BE3D1F00569A0A /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		92ACF8E725BE3D2E00569A0A /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
+		92ACF8E925BF59F500569A0A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		92ACF8E325BE3C1500569A0A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				92ACF8E925BF59F500569A0A /* Player.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				92ACF8E625BE3D1F00569A0A /* LeagueVC.swift in Sources */,
 				92ACF8CE25BDFD8400569A0A /* ViewController.swift in Sources */,
 				92ACF8CA25BDFD8400569A0A /* AppDelegate.swift in Sources */,
+				92ACF8EA25BF59F500569A0A /* Player.swift in Sources */,
 				92ACF8CC25BDFD8400569A0A /* SceneDelegate.swift in Sources */,
 				92ACF8E825BE3D2E00569A0A /* SkillVC.swift in Sources */,
 				92ACF8E225BE11F300569A0A /* BorderButton.swift in Sources */,
@@ -321,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.2;
 				DEVELOPMENT_TEAM = 8L83CZ8839;
 				INFOPLIST_FILE = Swoosh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,6 +344,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.2;
 				DEVELOPMENT_TEAM = 8L83CZ8839;
 				INFOPLIST_FILE = Swoosh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

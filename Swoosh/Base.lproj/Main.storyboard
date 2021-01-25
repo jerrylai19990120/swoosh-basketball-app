@@ -123,6 +123,9 @@
                                         <state key="normal" title="Mens">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onMensTapped:" destination="wwT-Ur-2yG" eventType="touchUpInside" id="QOZ-hc-oq8"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8a-10-YV7" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="114" width="362" height="50"/>
@@ -134,6 +137,9 @@
                                         <state key="normal" title="Womens">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onWomensTapped:" destination="wwT-Ur-2yG" eventType="touchUpInside" id="IV4-pT-fu4"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tUu-AT-Wxj" customClass="BorderButton" customModule="Swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="228" width="362" height="50"/>
@@ -145,6 +151,9 @@
                                         <state key="normal" title="Co-ed">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onCoedTapped:" destination="wwT-Ur-2yG" eventType="touchUpInside" id="rwE-AQ-S5w"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -158,6 +167,9 @@
                                 <state key="normal" title="NEXT">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onNextTapped:" destination="wwT-Ur-2yG" eventType="touchUpInside" id="Ua8-3B-Qba"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u5z-Se-Fq1">
                                 <rect key="frame" x="39" y="44" width="29" height="24"/>
@@ -192,6 +204,10 @@
                         <viewLayoutGuide key="safeArea" id="HUb-qf-HNU"/>
                     </view>
                     <navigationItem key="navigationItem" id="R9m-Bt-jNN"/>
+                    <connections>
+                        <outlet property="nextBtn" destination="lJV-Ve-g73" id="85n-Ze-aTP"/>
+                        <segue destination="uli-gQ-BvT" kind="presentation" identifier="skillVCsegue" modalPresentationStyle="fullScreen" id="smo-7I-Gu9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3fX-A9-L3H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="XAe-L1-8Qd" userLabel="Exit" sceneMemberID="exit"/>
@@ -280,6 +296,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Fi5-Lt-kR1"/>
                     </view>
+                    <navigationItem key="navigationItem" id="dp0-ff-9M5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bfy-ny-hcJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
